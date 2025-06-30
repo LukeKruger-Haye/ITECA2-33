@@ -1,0 +1,116 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background: #e3e3e3;
+}
+
+.settings-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 32px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    min-height: 600px;
+}
+
+.menu-title {
+    padding: 0 32px 16px 32px;
+    font-size: 1.32px;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 2px solid #e1e5e9;
+    margin-bottom: 16px;
+}
+
+.menu-item {
+    display: block;
+    padding: 16px 32px;
+    color: #666;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background: #e9ecef;
+    color: #333;
+}
+
+.menu-item.active {
+    background: #01497C;
+    color: white;
+    border-left-color: #4c63d2;
+}
+
+.form-container {
+    padding: 20px;
+}
+
+.form-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 24px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e1e5e9;
+}
+
+.form-input {
+    margin-bottom: 24px;
+}
+
+.form-input label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 600;
+}
+
+.form-input input,
+.form-input select,
+.form-input textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #e1e5e9;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+#province {
+    width: 102.5%;
+}
+
+.form-input input:focus,
+.form-input select:focus,
+.form-input textarea:focus {
+    outline: none;
+    border-color: #01497C;
+}
+
+.form-row {
+    gap: 16px;
+}
+
+.form-row .form-input {
+    flex: 1;
+}
+
+.form-button {
+    background: linear-gradient(135deg, #01497C 0%, #2A6F97 100%);
+    color: white;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.form-button:hover {
+    transform: translateY(-2px);
+}

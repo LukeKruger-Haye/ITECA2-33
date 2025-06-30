@@ -1,0 +1,101 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.container-header {
+    background: linear-gradient(135deg, #01497C 0%, #014F86 100%);
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.container-header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.container-header p {
+    opacity: 0.9;
+    font-size: 18px;
+}
+
+.payment-container {
+    padding: 40px;
+    text-align: center;
+}
+
+.payment-container h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.payment-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+    font-size: 16px;
+}
+
+.payment-container input[type="text"] {
+    width: 75%;
+    padding: 12px 16px;
+    border: 2px solid #e1e5e9;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background: #f8f9fa;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.payment-container input[type="text"]:focus {
+    outline: none;
+    border-color: #4facfe;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(79, 172, 254, 0.1);
+}
+
+.payment-container button,
+.complete-payment {
+    background: linear-gradient(135deg, #01497C 0%, #014F86 100%);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.payment-container button:hover,
+.complete-payment:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+}
